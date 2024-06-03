@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Routine Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-...." crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            /* background-color: #f0f0f0; */
+            background-color: #121212;
+        }
+
+        .container {
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .day-box {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+
+        .day-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .day-box.clicked {
+            background-color: #81c784;
+            color: #ffffff;
+        }
+
+        .day-box.clicked:hover {
+            transform: translateY(-5px);
+        }
+        .phase{
+            text-align: center;
+            color: wheat;
+        }
+         .track{
+            border: 1px solid black;
+            padding: 20px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-size: 30px;
+            font-weight: 600;
+            background-color: #232323;
+            color: white;
+        margin: 0 auto;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        }
+    </style>
+</head>
+<body>
+         <div class="track">Routine Tracker</div>
+     <div class="content">
+        <h1 class="phase">Phase 1</h1>
+    <div class="container">
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+        <!-- Add more day boxes here -->
+    </div>
+     </div>
+
+
+    <!--  phase 2 -->
+    <h1 class="phase">Phase 2</h1>
+    <div class="container">
+        <div class="day-box">
+            <p>Day 1</p>
+        </div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+    </div>
+    <!-- phase 3 -->
+    <h1 class="phase">Phase 3</h1>
+    <div class="container">
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+        <!-- Add more day boxes here -->
+        <!-- phase 4 -->
+        <h1 class="phase">Phase 4</h1>
+    <div class="container">
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+        <!-- Add more day boxes here -->
+        <h1 class="phase">Phase 5</h1>
+    <div class="container">
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+        <!-- Add more day boxes here -->
+    </div>
+    <h1 class="phase">Phase 6</h1>
+    <div class="container">
+        <div class="day-box">Day 1</div>
+        <div class="day-box">Day 2</div>
+        <div class="day-box">Day 3</div>
+        <div class="day-box">Day 4</div>
+        <div class="day-box">Day 5</div>
+        <div class="day-box">Day 6</div>
+        <div class="day-box">Day 7</div>
+        <div class="day-box">Day 8</div>
+        <div class="day-box">Day 9</div>
+        <div class="day-box">Day 10</div>
+        <div class="day-box">Day 11</div>
+        <div class="day-box">Day 12</div>
+        <div class="day-box">Day 13</div>
+        <div class="day-box">Day 14</div>
+        <div class="day-box">Day 15</div>
+        <div class="day-box">Day 16</div>
+        <div class="day-box">Day 17</div>
+        <div class="day-box">Day 18</div>
+        <div class="day-box">Day 19</div>
+        <div class="day-box">Day 20</div>
+        <div class="day-box">Day 21</div>
+        <div class="day-box">Day 22</div>
+        <div class="day-box">Day 23</div>
+        <div class="day-box">Day 24</div>
+        <div class="day-box">Day 25</div>
+        <div class="day-box">Day 26</div>
+        <div class="day-box">Day 27</div>
+        <div class="day-box">Day 28</div>
+        <div class="day-box">Day 29</div>
+        <div class="day-box">Day 30</div>
+        <!-- Add more day boxes here -->
+    </div>
+    </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const boxes = document.querySelectorAll('.day-box');
+            const today = new Date().toDateString();
+            const savedState = JSON.parse(localStorage.getItem('boxStates')) || {};
+            const lastClickedDate = savedState.date;
+            const lastClickedIndex = savedState.index;
+
+            // Apply saved state if it's the same day
+            if (lastClickedDate === today && lastClickedIndex !== undefined) {
+                boxes[lastClickedIndex].classList.add('clicked');
+                const icon = document.createElement('i');
+                icon.classList.add('fa-solid', 'fa-check');
+                boxes[lastClickedIndex].appendChild(icon);
+            }
+
+            boxes.forEach((box, index) => {
+                box.addEventListener('click', () => {
+                    const clickedBox = document.querySelector('.day-box.clicked');
+                    if (clickedBox) {
+                        alert('You can only check one box per day.');
+                        return;
+                    }
+
+                    box.classList.add('clicked');
+                    const icon = document.createElement('i');
+                    icon.classList.add('fa-solid', 'fa-check');
+                    box.appendChild(icon);
+                    localStorage.setItem('boxStates', JSON.stringify({ date: today, index: index }));
+                });
+            });
+        });
+        // localStorage.removeItem('boxStates');
+    </script>
+</body>
+</html>
